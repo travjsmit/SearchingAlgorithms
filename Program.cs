@@ -1,6 +1,6 @@
 ﻿namespace SearchingAlgorithms
 {
-    internal class Program
+    public class Program
     {
         static void Main(string[] args)
         {
@@ -9,7 +9,7 @@
             Console.WriteLine(arr1Result);
         }
 
-        static int LinearSearch(int[] arrToSearch, int target)
+        public static int LinearSearch(int[] arrToSearch, int target)
         {
             //int i = 0 - initializing our loop conditional - in tthis case to 0
             // next we evaluate if the value meets the condition
